@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Moving Eyes</title>
+</head>
+<body id="main">
+<script src="./logic.js"></script>
+<!-- button menu -->
+<div class="buttonMenu">
+    <button type="button" onclick="defaultFace()"> Default Face</button>
+    <button type="button" onclick="angryFace()"> Angry Face</button>
+    <button type="button" onclick="suprisedFace()"> Suprised Face</button>
+    <button type="button" onclick="happyFace()"> Happy Face</button>
+</div>
+<!-- the face  -->
+<div class="brows">
+    <div id="leftBrow" ></div>
+    <div id="rightBrow" ></div>
+</div>
+    <div class="eyes">        
+        <div></div> <!-- spacer -->
+        <div id="leftEye">
+            <!-- THe iris -->
+            <div class="ball"></div>
+        </div>        
+        <div></div> <!-- spacer -->
+        <div id="rightEye">
+            <!-- THe iris -->
+            <div class="ball"></div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
